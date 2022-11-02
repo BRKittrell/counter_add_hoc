@@ -1,7 +1,5 @@
-const BackButton = ({resetCount}) => {
-    return (
-<button onClick={resetCount}>Click to Reset</button>
-    )
-}
+const BackButton = ({ resetCount }) => {
+  return <button onClick={resetCount}>Click to Reset</button>;
+};
 
-export default BackButton
+export default BackButton;

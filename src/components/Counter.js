@@ -1,8 +1,5 @@
-const Counter = ({handleCountClick}) => {
-    return(
-<button onClick={handleCountClick}>Click To Count</button>
-    )
-}
+const Counter = ({ handleCountClick }) => {
+  return <button onClick={handleCountClick}>Click To Count</button>;
+};
 
-
-export default Counter
+export default Counter;
